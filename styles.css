@@ -57,6 +57,7 @@ a:hover, a:active {
 table {
   width:100%;
   font-size:14px;
+  border-collapse: collapse;
 }
 th, td {
   text-align:left;
@@ -64,13 +65,15 @@ th, td {
   padding-right:10px;
   vertical-align:top;
 }
-.tableHead {
+thead > tr {
   border-bottom: 2px solid gray;
 }
-/*what is going on with the table borders*/
-.tableBody {
+tbody > tr {
   border-bottom:1px solid gray;
 }
+    tbody td {
+        padding: 10px;
+    }
 p {
   font-size:14px;
 }
