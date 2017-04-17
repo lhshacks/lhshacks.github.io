@@ -33,7 +33,7 @@ text-align: center;
 nav {
   position:fixed;
   width:100%;
-  background-color: #80a0f980;
+  background-color: rgba(128, 160, 249, 0.5);
   padding: 5px 0;
 }
 section {
