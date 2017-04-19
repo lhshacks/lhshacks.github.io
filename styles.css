@@ -78,6 +78,13 @@ tbody > tr {
 p {
   font-size:14px;
 }
+#sponsors div {
+    display: flex;
+    justify-content:space-around;
+}
+    #sponsors div img {
+        height: 75px;
+    }
 footer {
   width:100%;
   color:white;
