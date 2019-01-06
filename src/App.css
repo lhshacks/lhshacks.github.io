@@ -1,0 +1,96 @@
+body {
+    font-family: Lato, sans-serif;
+    margin: 0;
+}
+
+main h1 {
+    font-size: 3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+
+header {
+    background-color: white;
+}
+
+header > div {
+    align-items: center;
+    display: flex;
+    margin: auto;
+    max-width: 1000px;
+}
+
+main {
+    margin: 8px auto;
+}
+
+main section {
+    min-height: 50vh;
+}
+
+nav ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 8px;
+}
+
+.button {
+    border: 1px solid black;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: padding 500ms;
+    -moz-transition: padding 500ms;
+    -ms-transition: padding 500ms;
+    -o-transition: padding 500ms;
+    transition: padding 500ms;
+}
+
+.button:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.button.big {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 16px 32px;
+}
+
+.button.gradient.blue {
+    background-image: linear-gradient(90deg, deepskyblue, dodgerblue);
+    border: none;
+    color: white;
+}
+
+.button.gradient.blue:hover {
+    -webkit-box-shadow:  0 0 5px deepskyblue;
+    -moz-box-shadow:  0 0 5px deepskyblue;
+    box-shadow:  0 0 5px deepskyblue;
+}
+
+.button.squishy:hover {
+    padding: 8px 24px;
+}
+
+.button.squishy.big:hover {
+    padding: 16px 40px;
+}
+
+#apply-button {
+    display: inline-block;
+    margin: 8px;
+}
