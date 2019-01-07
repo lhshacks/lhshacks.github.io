@@ -1,0 +1,49 @@
+body {
+    font-family: Lato, sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+    font-size: 2em;
+}
+
+main section {
+    min-height: 50vh;
+}
+
+.constrained-width {
+    margin: auto;
+    width: 1000px;
+}
+
+.logo.medium {
+    width: 384px;
+}
+
+.logo.medium.cropped {
+    margin-bottom: -56px;
+}
+
+#hero {
+    align-items: center;
+    display: flex;
+    min-height: 80vh;
+    justify-content: center;
+}
+
+#hero-inner {
+    text-align: center;
+}
+
+#hero-button {
+    display: inline-block;
+}
+
+.h2-delay {
+    animation-delay: 250ms;
+}
+
+.button-delay {
+    animation-delay: 300ms;
+}
