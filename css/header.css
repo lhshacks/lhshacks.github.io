@@ -28,3 +28,9 @@ header nav ul li a {
 #header-container {
     background-color: black;
 }
+
+@media screen and (max-width: 960px) {
+    header nav {
+        display: none;
+    }
+}
