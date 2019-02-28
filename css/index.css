@@ -5,11 +5,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Montserrat, sans-serif;
-    font-size: 2em;
-}
-
-main section {
-    min-height: 50vh;
+    font-size: 2rem;
 }
 
 .constrained-width {
@@ -28,7 +24,7 @@ main section {
 #hero {
     align-items: center;
     display: flex;
-    min-height: 80vh;
+    min-height: 100vh;
     justify-content: center;
 }
 
@@ -50,4 +46,31 @@ main section {
 
 img {
     max-width: 100vw;
+}
+
+article > section > div {
+    line-height: 2em;
+    margin: auto;
+    max-width: 1000px;
+    padding: 64px 0;
+}
+
+article section:nth-child(odd) {
+    background: #000;
+    color: white;
+}
+
+#schedule table {
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+#schedule table td, #schedule table th {
+    border-bottom: thin solid black;
+    padding: 0 15px;
+}
+
+#schedule table th {
+    font-weight: bold;
 }
