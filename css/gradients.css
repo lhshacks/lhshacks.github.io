@@ -1,8 +1,0 @@
-.gradient {
-    border: none;
-}
-
-.gradient.blue {
-    background-image: linear-gradient(90deg, deepskyblue, dodgerblue);
-    color: white;
-}

@@ -1,272 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8"/>
-        <link rel="icon" href="images/viking_helmet.png"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:200,300,500,700|Lato">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/index.css">
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/button.css">
-        <link rel="stylesheet" href="css/gradients.css">
-        <title>VikeHacks</title>
-    </head>
-    <body>
-        <div class="animated fadeInDown" id="header-container">
-            <header class="constrained-width">
-                <h1>VikeHacks</h1>
-                <nav>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a class="squishy button blue gradient" href="https://forms.gle/Xic7a9Bsfhr7GiXC6">Sign Up</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
-        <main>
-            <section id="hero">
-                <div id="hero-inner">
-                    <img class="fadeIn cropped medium logo" src="images/viking_helmet.png" alt="">
-                    <h2 class="animated fadeInUp">Lynbrook's Official Annual Hackathon</h2>
-                    <h2 class="animated fadeInUp h2-delay">November 23 - 24, 2019</h2>
-                    <a class="big squishy button blue gradient animated fadeInUp button-delay"
-                       href="https://forms.gle/Xic7a9Bsfhr7GiXC6"
-                       id="hero-button">Sign Up</a>
-                </div>
-            </section>
-            <article>
-                <section id="faq">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <h1>FAQ</h1>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="col-12 block">
-                                <h3>What is a hackathon?</h3>
-                                <p>Our hackathon is a 24-hour programming marathon where your ideas come to life. Over the
-                                    course of the weekend, students from all backgrounds and all skill levels
-                                    collaborate in teams of up to four to build something awesome. All participants
-                                    must abide by the <a class="link" href="assets/pdf/mlh-code-of-conduct.pdf"
-                                                         target="_blank">MLH Code of Conduct</a>.</p>
-                            </div>
-                        </div>
-                        <div class="row">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VikeHacks</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <ul class="navList">
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#schedule">schedule</a></li>
+        <li><a href="#sponsors">sponsors</a></li>
+      </ul>
+    </nav>
+    <main id="home">
+      <h1>VikeHacks 2.0</h1>
+      <p>Fall 2017 | Lynbrook High</p>
+      <p><a href="https://docs.google.com/forms/d/1psGEpzvVJTrfD3SieqHVtbQif7fnqbLNwHfNvnoH_lY/edit?usp=drive_web" target="_blank">Sign Up</a></p>
+    </main>
+    <section id="about">
+      <h2>About (New website in progress)</h2>
+      <p>VikeHacks is Lynbrook High School's student hackathon. Join us for 12 hours of hacking, learning, and prizes!</p>
+      <p>VikeHacks is focused completely on one goal: helping you build the project of your dreams. From hardware hacking to website development to game design, you will be able to build it at VikeHacks.</p>
+      <p>In fact, VikeHacks is perfect even if you're completely new to computer programming! Not only will we be providing beginner workshops in all sorts of programming, but we will have personal mentors available to help you get started on building your dreams.</p>
+    </section>
+    <section id="schedule">
+      <h2>Schedule (VikeHacks 1.0)</h2>
+      <table>
+        <thead>
+            <tr>
+              <th style="width:20%; min-width:100px; max-width:200px;">Event</th>
+              <th style="width:15%; min-width:100px; max-width:100px;">Time</th>
+              <th style="min-width:250px;">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>Registration</td>
+              <td>7:30 - 8 AM</td>
+              <td>We will be taking at-the-door signups if we still have room on the day of. Sign up online to save your spot!</td>
+            </tr>
+            <tr>
+              <td>Opening Session</td>
+              <td>8:30 AM - 9:00 AM</td>
+              <td>Welcome to VikeHacks! We will introduce you to the resources available and provide more information about the day.</td>
+            </tr>
+            <tr>
+              <td>Mentor Guidance</td>
+              <td>9:00 AM - On</td>
+              <td>Not sure what to build, or how to start? VikeHacks is providing personal mentors who can help you approach whatever you want to build!</td>
+            </tr>
+            <tr>
+              <td>Raspbery Pi Workshop</td>
+              <td>9:00 AM - 10:30 AM</td>
+              <td>Learn how to program one of the hottest gadgets around: the mini-computer Raspberry Pi! Workshop sponsored and run by IBM.</td>
+            </tr>
+            <tr>
+              <td>IBM Watson Workshop</td>
+              <td>10:30 AM - 11:30 AM</td>
+              <td>IBM Watson is leading the way in domains from finance to health - learn how to leverage it for your own projects! Workshop sponsored and run by IBM.</td>
+            </tr>
+            <tr>
+              <td>Lunch</td>
+              <td>11:30 AM - 12:30 PM</td>
+              <td>Something scrumptious!</td>
+            </tr>
+            <tr>
+              <td>Unity Game Development Workshop</td>
+              <td>12:45 PM - 2:00 PM</td>
+              <td>Learn to build games with the same tools the pros use. Hosted by the Lynbrook Creative Game Design club...</td>
+            </tr>
+            <tr>
+              <td>Intro to Web Dev and HTML</td>
+              <td>12:45 PM - 2:00 PM</td>
+              <td>...Or learn to build the website of your dreams using HTML and CSS! Hosted by the Lynbrook Website Development club.</td>
+            </tr>
+            <tr>
+              <td>Ionic App Development</td>
+              <td>2:15 PM - 3:30 PM</td>
+              <td>Build incredible apps with HTML and Javascript. Hosted by the Lynbrook Creative Game Design club...</td>
+            </tr>
+            <tr>
+              <td>Web Dev Part 2 (Javascript)</td>
+              <td>2:05 PM - 3:30 PM</td>
+              <td>...Or, learn more about Website Development, with a focus on building interactive web apps with Javascript. Hosted by the Lynbrook Website Development club.</td>
+            </tr>
+            <tr>
+              <td>Logo Design Workshop</td>
+              <td>3:35 PM - 4:00 PM</td>
+              <td>Your new creation needs a great logo to go with it - why not learn to design one in this half-hour workshop?</td>
+            </tr>
+            <tr>
+              <td>Landing Page Design Workshop</td>
+              <td>4:05 PM - 5:00 PM</td>
+              <td>Every great application and logo needs a great landing page, which is why we put this great workshop close to the end of the hackathon.</td>
+            </tr>
+            <tr>
+              <td>Dinner</td>
+              <td>5:30 PM - 6:30 PM</td>
+              <td>Just what you need to finish up a day of hacking.</td>
+            </tr>
+            <tr>
+              <td>Judging + Awards</td>
+              <td>7:00 - 8:00 PM</td>
+              <td>Projects will be judged and awared prizes based on multiple categories of achievement.</td>
+            </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="sponsors">
+      <h2>Sponsors</h2>
+      <div>
+       
+          <img src="sponsors/ibmlogo.png" />
+          
+          <img src="sponsors/makeschool.png" />
+          <img src="sponsors/stickermule.png" />
+      </div>
+    </section>
+    <footer>
+      <p>Made with &hearts; by VikeHacks.</p>
+    </footer>
+    <!--omegaderp 2017-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        //Thanks! https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
 
-                            <div class="col-lg-6 block">
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
 
-                                <h3>What if I don't know how to code?</h3>
-                                <p>No worries! VikeHacks is the perfect time to learn how to code and all students,
-                                    regardless of skill level and experience, are welcome. There will be plenty of
-                                    mentors on hand glad to answer any and all questions and workshops specifically
-                                    designed for those with no prior experience. Stay tuned for more information about
-                                    workshops!</p>
+              // Store hash
+              var hash = this.hash;
 
-                            </div>
-
-                            <div class="col-lg-6 block">
-
-                                <h3>Do I have to be in high school?</h3>
-                                <p>Yes, only current high school students will be able to attend. Unfortunately, we are
-                                    not accepting middle school students. College students are welcome to help out as
-                                    mentors!</p>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6 block">
-
-                                <h3>What if I don't have a team or an idea?</h3>
-                                <p>No worries! It is not uncommon for people to come into the hackathon without an
-                                    already-formed group, but we'll make sure you're matched with the right people! We
-                                    will have a team formation and ideation session the first night so everyone
-                                    can find the perfect team and come up with awesome ideas, so don't you worry
-                                    first-time hackers!</p>
-                            </div>
-                            <div class="col-lg-6 block">
-
-                                <h3>How big can teams be?</h3>
-                                <p>Teams can be up to four people. While you may work as an individual, we highly
-                                    encourage collaborating with others. If you don't have a team or need help finding
-                                    one, make sure not to miss our team formation and ideation session on Saturday.</p>
-
-                            </div>
-                        </div>
-                        <div class="row">
-
-                            <div class="col-lg-6 block">
-
-                                <h3>What should I bring?</h3>
-                                <p>Attendees should bring a valid student ID or some other form of identification, as
-                                    well as a signed and completed waiver. Bring laptops and chargers, along with any
-                                    other technology that you may want to use! We will have designated sleeping
-                                    spots so feel free to bring a sleeping bag and pillow. Also it is highly suggested
-                                    that you bring toiletries so you can feel refreshed and beautiful!</p>
-                            </div>
-
-                            <div class="col-lg-6 block">
-
-                                <h3>How much does it cost to attend?</h3>
-                                <p>Nothing! Just bring your beautiful self and ideas and we will provide you with the
-                                    food, WiFi, workspace, and swag!</p>
-                            </div>
-                        </div>
-                        <div class="row">
-
-                            <div class="col-lg-6 block">
-
-                                <h3>What is the schedule like?</h3>
-                                <p>The event will be November 23, 2019. <a href="#schedule" class="link">Click
-                                    here</a> to see a more specific schedule! </p>
-                            </div>
-                        </div>
-                        <div class="row">
-
-                            <div class="col-lg-6 block">
-
-                                <h3>What if I have another question?</h3>
-                                <p>Email us at <a class="link" href="mailto:team@mg.vikehacks.ml">sponsors@vikehacks.ml</a>
-                                    if
-                                    you have any additional questions. We are always happy to help!</p>
-                            </div>
-
-                            <div class="col-lg-6 block">
-
-                                <h3>What if I want to sponsor?</h3>
-                                <p>Email us at <a class="link"
-                                                  href="mailto:sponsors@mg.vikehacks.ml">sponsors@mg.vikehacks.ml</a>,
-                                    we always
-                                    are looking!</p>
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="schedule">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>
-                                    <p><span>Time</span></p>
-                                </th>
-                                <th>
-                                    <p><span>Event</span></p>
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <p><span style="font-weight: 400;">10:30 AM</span></p>
-                                </td>
-                                <td>
-                                    <p><span style="font-weight: 400;">Check In</span></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p><span style="font-weight: 400;">11 AM</span></p>
-                                </td>
-                                <td>
-                                    <p><span style="font-weight: 400;">Opening Ceremony</span></p>
-                                    <p><span style="font-weight: 400;">Team Formation</span></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p><span style="font-weight: 400;">11:30 AM</span></p>
-                                </td>
-                                <td>
-                                    <p><span style="font-weight: 400;">Coding Begins</span></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p><span style="font-weight: 400;">12:30 PM</span></p>
-                                </td>
-                                <td>
-                                    <p><span style="font-weight: 400;">Workshop 1</span></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p><span style="font-weight: 400;">1:30 PM</span></p>
-                                </td>
-                                <td>
-                                    <p><span style="font-weight: 400;">Lunch</span></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p><span style="font-weight: 400;">4 PM</span></p>
-                                </td>
-                                <td>
-                                    <p><span style="font-weight: 400;">Workshop 2</span></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p><span style="font-weight: 400;">7 PM</span></p>
-                                </td>
-                                <td>
-                                    <p><span style="font-weight: 400;">Dinner</span></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p><span style="font-weight: 400;">12 AM</span></p>
-                                </td>
-                                <td>
-                                    <p><span style="font-weight: 400;">Midnight Snack</span></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p><span style="font-weight: 400;">7 AM </span></p>
-                                </td>
-                                <td>
-                                    <p><span style="font-weight: 400;">Breakfast</span></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p><span style="font-weight: 400;">8 AM</span></p>
-                                </td>
-                                <td>
-                                    <p><span style="font-weight: 400;">Hacking Ends</span></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p><span style="font-weight: 400;">8:30 AM</span></p>
-                                </td>
-                                <td>
-                                    <p><span style="font-weight: 400;">Submission to Devpost</span></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p><span style="font-weight: 400;">9 AM</span></p>
-                                </td>
-                                <td>
-                                    <p><span style="font-weight: 400;">Judging Begins</span></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p><span style="font-weight: 400;">10:30 AM</span></p>
-                                </td>
-                                <td>
-                                    <p><span style="font-weight: 400;">Closing Ceremony</span></p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-            </article>
-        </main>
-    </body>
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: ($(hash).offset().top)
+              }, 500, function(){
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+    </script>
+  </body>
 </html>
